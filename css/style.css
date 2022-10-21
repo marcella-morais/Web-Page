@@ -11,13 +11,14 @@ body {
 .header-container-background {
     background: url(../images/neon-lights.jpg) center / cover no-repeat;
     z-index: -1;
+    height: 100vh;
 }
 
 .header-container-background-after {
     content: '';
     left: 0;
     top: 0;
-    height: 800px;
+    height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.286);
     z-index: 1;
@@ -72,12 +73,13 @@ body {
 
 .main-contents-title {
     color: #fff;
-    font-size: 2.4em;
+    font-size: 2.1em;
     font-weight: 500;
     margin-right: 20px;
     margin-bottom: 40px;
     text-shadow: 0 0 2px #000;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .main-contents-title span {
